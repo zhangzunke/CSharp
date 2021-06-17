@@ -19,7 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enums", "Enums\Enums.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp9", "CSharp9\CSharp9.csproj", "{99B7116B-5BE2-4842-B850-534A683ACE9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqLambda", "LinqLambda\LinqLambda.csproj", "{7E4B63FF-1819-4DE1-BB4D-0A6286F0BFE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqLambda", "LinqLambda\LinqLambda.csproj", "{7E4B63FF-1819-4DE1-BB4D-0A6286F0BFE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{F7606AC3-B0DE-4BCA-BA74-8C1E98BCD872}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystem", "FileSystem\FileSystem.csproj", "{8DDBDF0F-E662-4DB4-B4AD-CFFAABD7EFD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{7E4B63FF-1819-4DE1-BB4D-0A6286F0BFE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E4B63FF-1819-4DE1-BB4D-0A6286F0BFE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E4B63FF-1819-4DE1-BB4D-0A6286F0BFE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7606AC3-B0DE-4BCA-BA74-8C1E98BCD872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7606AC3-B0DE-4BCA-BA74-8C1E98BCD872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7606AC3-B0DE-4BCA-BA74-8C1E98BCD872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7606AC3-B0DE-4BCA-BA74-8C1E98BCD872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DDBDF0F-E662-4DB4-B4AD-CFFAABD7EFD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DDBDF0F-E662-4DB4-B4AD-CFFAABD7EFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DDBDF0F-E662-4DB4-B4AD-CFFAABD7EFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DDBDF0F-E662-4DB4-B4AD-CFFAABD7EFD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
