@@ -9,7 +9,6 @@ namespace FileSystem
     {
         static void Main(string[] args)
         {
-
             var baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
             IFileProvider fileProvider = new PhysicalFileProvider(baseDirectory);
             var contents = fileProvider.GetDirectoryContents("/");

@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqLambda", "LinqLambda\Li
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{F7606AC3-B0DE-4BCA-BA74-8C1E98BCD872}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystem", "FileSystem\FileSystem.csproj", "{8DDBDF0F-E662-4DB4-B4AD-CFFAABD7EFD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileSystem", "FileSystem\FileSystem.csproj", "{8DDBDF0F-E662-4DB4-B4AD-CFFAABD7EFD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern", "Pattern\Pattern.csproj", "{6BACCA97-348E-4384-8AD1-7EFF2587A469}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{8DDBDF0F-E662-4DB4-B4AD-CFFAABD7EFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DDBDF0F-E662-4DB4-B4AD-CFFAABD7EFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DDBDF0F-E662-4DB4-B4AD-CFFAABD7EFD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BACCA97-348E-4384-8AD1-7EFF2587A469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BACCA97-348E-4384-8AD1-7EFF2587A469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BACCA97-348E-4384-8AD1-7EFF2587A469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BACCA97-348E-4384-8AD1-7EFF2587A469}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
