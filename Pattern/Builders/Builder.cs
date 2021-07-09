@@ -66,4 +66,26 @@ namespace Pattern.Builders
             return _queryStringBuilder.ToString();
         }
     }
+
+    public class DictBuilder : IKeyValueCollectionBuilder
+    {
+        private Dictionary<string, string> _dictionary = new Dictionary<string, string>();
+
+        public IKeyValueCollectionBuilder Add(string key, string value)
+        {
+            _dictionary[key] = value;
+            return this;
+        }
+
+        public string Build()
+        {
+            var str = string.Empty;
+            foreach (var item in _dictionary)
+            {
+                str += $"Key = {item.Key}, Value = {item.Value}";
+                str += Environment.NewLine;
+            }
+            return str;
+        }
+    }
 }
