@@ -15,11 +15,11 @@ namespace Pattern.Builders
 
     public interface ICarBuilder
     {
-        CarBuilder SetMake(string make);
+        ICarBuilder SetMake(string make);
 
-        CarBuilder SetColour(string colour);
+        ICarBuilder SetColour(string colour);
 
-        CarBuilder SetManifactureDate(string date);
+        ICarBuilder SetManifactureDate(string date);
     }
 
     public class CarBuilder : ICarBuilder
