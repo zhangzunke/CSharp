@@ -1,5 +1,7 @@
 ﻿using Pattern.Builders;
+using Pattern.Decorators;
 using Pattern.Factories;
+using Pattern.Singletons;
 using System;
 
 namespace Pattern
@@ -15,6 +17,14 @@ namespace Pattern
             // Factories
             Console.WriteLine("--------------Builders--------------------");
             BuilderMain.Run();
+
+            // Factories
+            Console.WriteLine("--------------Singletons--------------------");
+            SingletonMain.Run();
+
+            //Decorators
+            Console.WriteLine("--------------Decorators--------------------");
+            DecoratorMain.Run();
 
             Console.WriteLine();
             Console.WriteLine("Hello World!");
